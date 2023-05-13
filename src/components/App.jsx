@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { getNotes as getNotesApi, deleteNote } from '../api/api';
 import './App.css';
-import NoteList from './Notelist/Notelist';
+import NoteList from './NoteList/NoteList';
 import NewNoteForm from './NewNoteForm/NewNoteForm';
 
 function App() {
